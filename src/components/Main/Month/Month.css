@@ -1,0 +1,15 @@
+.modal-content {
+    height: fit-content !important;
+    background-color: black;
+    color: white;
+}
+
+.close {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+.close:hover {
+    color: whitesmoke !important;
+    opacity: 1 !important;
+}
