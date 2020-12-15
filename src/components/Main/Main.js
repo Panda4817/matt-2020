@@ -2,7 +2,9 @@ import React from 'react'
 import data from './data'
 import Month from './Month/Month'
 const Main = () => {
-
+    
+    
+    
     return (
         <main className="row justify-content-center">
             {data.map((d) => {

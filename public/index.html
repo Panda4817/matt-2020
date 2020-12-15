@@ -45,4 +45,24 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    $(document).ready(() => {
+      const data = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+      var stopAllYouTubeVideos = () => { 
+        var iframes = document.querySelectorAll('iframe');
+        Array.prototype.forEach.call(iframes, iframe => { 
+          iframe.contentWindow.postMessage(JSON.stringify({ event: 'command', 
+        func: 'pauseVideo' }), '*');
+      });
+      }
+      for (let i=0; i<data.length; i++){
+          $('#'+data[i] + 'modal').on('shown.bs.modal', function (e) {
+              stopAllYouTubeVideos();
+              let video = document.querySelector('#iframe' + data[i]);
+              video.contentWindow.postMessage(JSON.stringify({event: 'command', func: 'playVideo'}), '*')
+          })
+      }
+    })
+   
+  </script>
 </html>

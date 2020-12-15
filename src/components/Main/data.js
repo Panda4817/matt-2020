@@ -1,21 +1,25 @@
 const data = [
     {"month": "January", 
-    "title": "New decade! So much planned...", 
+    "title": "New decade! So much planned! So excited...", 
     "main": `<img class="mx-auto d-block" width="100%" src="https://i.imgur.com/1WIJqmp.gif"></img>
-    <img class="mx-auto d-block" width="100%" src="https://i.imgur.com/F1LYana.gif"></img>`},
+    <img class="mx-auto d-block" width="100%" src="https://i.imgur.com/F1LYana.gif"></img>
+    <iframe id="iframeJanuary" width="100%" height="300" src="https://www.youtube.com/embed/vnPsziXgy3k?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`},
     {"month":"February", 
     "title": "5 years together and finally had our house warming!", 
     "main": `<img class="mx-auto d-block" width="100%" src="https://i.imgur.com/vMv0uwo.gif">
-    </img><img class="mx-auto d-block" width="100%" src="https://i.imgur.com/DW9LmrL.gif"></img>`},
+    </img><img class="mx-auto d-block" width="100%" src="https://i.imgur.com/DW9LmrL.gif"></img>
+    <iframe id="iframeFebruary" width="100%" height="300" src="https://www.youtube.com/embed/HgzGwKwLmgM?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`},
     {"month":"March", 
     "title": "Covid! Lock down! LOO ROLL!!", 
     "main": `<img class="mx-auto d-block" width="100%" src="https://i.imgur.com/Ay0TP6G.gif"></img>
     <img class="mx-auto d-block" width="100%" src="https://i.imgur.com/titNOMh.gif"></img>
-    <img class="mx-auto d-block" width="100%" src="https://i.imgur.com/fDQUGWL.gif"></img>`},
+    <img class="mx-auto d-block" width="100%" src="https://i.imgur.com/fDQUGWL.gif"></img>
+    <iframe id="iframeMarch" width="100%" height="300" src="https://www.youtube.com/embed/8OyBtMPqpNY?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`},
     {"month":"April", 
     "title": "So many video calls! Trip to France cancelled!", 
     "main": `<img class="mx-auto d-block" width="100%" src="https://i.imgur.com/JYFB2tw.gif"></img>
-    <img class="mx-auto d-block" width="100%" src="https://i.imgur.com/o4Q9H82.gif"></img>`},
+    <img class="mx-auto d-block" width="100%" src="https://i.imgur.com/o4Q9H82.gif"></img>
+    <iframe id="iframeApril" width="100%" height="300" src="https://www.youtube.com/embed/StKVS0eI85I?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`},
     {"month":"May", 
     "title": "Lots of HAIR!", 
     "main": `<img class="mx-auto d-block" width="100%" src="https://i.imgur.com/xuC0imn.gif"></img>
@@ -28,7 +32,7 @@ const data = [
     {"month":"July", 
     "title": "Gigs cancelled! But, Taylor Swift released a new album! Also went to Torquay (wish it was France!)", 
     "main": `<img class="mx-auto d-block" width="50%" src="https://i.imgur.com/loar4Vd.gif"></img>
-    <iframe width="100%" height="300" src="https://www.youtube.com/embed/2s5xdY6MCeI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id="iframeJuly" width="100%" height="300" src="https://www.youtube.com/embed/2s5xdY6MCeI?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <img class="mx-auto d-block" width="100%" src="https://i.imgur.com/SyGaNfm.jpg"></img>`},
     {"month":"August", 
     "title": "CANADA CANCELLED!! But the Lake District was AMAZING!", 
@@ -50,7 +54,7 @@ const data = [
     {"month":"December", 
     "title": "Merry Christmas! ;)",
     "main": `<img class="mx-auto d-block" width="100%"  src="https://media.giphy.com/media/3oz8xzF04ey6yQT4d2/giphy.gif"></img>
-    <iframe width="100%"  height="300" class="mx-auto d-block" src="https://www.youtube.com/embed/j9jbdgZidu8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`}
+    <iframe id="iframeDecember" width="100%"  height="300" class="mx-auto d-block" src="https://www.youtube.com/embed/j9jbdgZidu8?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`}
 
 ]
 
