@@ -7,7 +7,7 @@ import './Footer.css'
 const Footer = () => (
 	<footer className="row justify-content-center text-center">
 		<div className="col-12">
-			<p>
+			<p id="footer_text">
 				Created by Secret Santa<br />
 				<FontAwesomeIcon icon={faCopyright} /> {new Date().getFullYear()}
 			</p>

@@ -13,3 +13,20 @@
     color: whitesmoke !important;
     opacity: 1 !important;
 }
+
+.month {
+    background-image: url(./present.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10vh;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    text-shadow: 1px 0.5px black;
+}
+
+.month:hover, .month:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}

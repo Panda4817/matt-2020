@@ -8,7 +8,7 @@ const Month = ({month, info}) => {
     return (
         <>
           
-            <button className="col-11 col-md-4 col-lg-3 col-xl-2 btn btn-block btn-primary m-1" data-toggle="modal" data-target={"#" + month + 'modal'}>
+            <button className="col-11 col-md-4 col-lg-3 col-xl-2 btn btn-block btn-primary m-1 month" data-toggle="modal" data-target={"#" + month + 'modal'}>
                 {month}
             </button>
             

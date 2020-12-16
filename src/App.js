@@ -4,10 +4,11 @@ import Header from './components/Header/Header'
 import Main from './components/Main/Main'
 // Main app component
 const App = () => (
+  
   <div className="container">
+      <Header />
+      <Main />
     
-    <Header />
-    <Main />
     <Footer />
     
   </div>
