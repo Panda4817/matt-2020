@@ -13,7 +13,7 @@ const Month = ({month, info}) => {
             </button>
             
             <div className="modal fade" id={month + 'modal'} tabIndex="-1" aria-labelledby={month + 'label'} aria-hidden="true">
-                <div className="modal-dialog modal-dialog-centered modal-lg">
+                <div className="modal-dialog modal-dialog-centered">
                     <div className="modal-content">
                         <div className="modal-header">
                             <h5 className="modal-title" id={month + 'modalTitle'}>{info.title}</h5>

@@ -1,8 +1,8 @@
 @font-face {
     font-family: snow_covered;
-    src: url('./almonte.snow.woff');
+    src: url('./BigSnow-9ZEj.woff');
 }
 h1 {
     font-family: snow_covered;
-    color: silver;
+    color: white;
 }
